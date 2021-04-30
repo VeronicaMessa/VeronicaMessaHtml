@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>News</title>
+    <script src="Scripts.js">
+    </script>
+    <link href="Stile.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   
+       
+    <form onsubmit="Sottoscrizione()">
+        <header><h1>Form per la sottoscrizione</h1></header>
+        
+            <INPUT class="button" TYPE="button" VALUE="Home"
+                   onclick="location.href='Home.html'" />
+
+        
+        <br/>
+        <br/>
+
+        <div>
+            <label for="localStorage">Nome: </label>
+            <input type="text" id="utente" onchange="Change()" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Subscribe" disabled onclick="Benvenuto()" />
+           <!-- <input type="button" id="Load" value="Entra" onclick="location.href = 'Home.html', window.alert('Benvenuto')" />-->
+            <!--<button onclick="Subscribe()">Subscribe</button>-->
+            <button onclick="RemoveAll()">Unsubscribe</button>
+
+        </div>
+    </form>
+    <footer>
+        <p>
+            Veronica Messa
+        </p>
+    </footer>
+</body>
+</html>

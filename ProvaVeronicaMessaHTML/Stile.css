@@ -1,0 +1,45 @@
+﻿body {
+    background-color:antiquewhite;
+}
+ul {
+    margin: 0 auto 0px;
+    width: 250px;
+    padding: 0px;
+    text-align:left;
+    overflow: hidden;
+    list-style-type: none;
+}
+li{
+    float:left;
+}
+.a-menu {
+    display: block;
+    color: red;
+    text-align: left;
+    padding: 0px 4px;
+}
+.a-menu:hover{
+    background-color:black;
+}
+
+.button {
+    border-bottom-style:solid;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h1{
+  font-family:'Book Antiqua';
+text-align:center;
+background-color:red;  
+}
+.titolo{
+
+}
+table{
+    border-color:black;
+}
+p{
+    text-align:justify;
+}
